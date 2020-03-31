@@ -49,7 +49,11 @@ public class A300_LongestIncreasingSubsequence {
             return maxCount;
         }
     }
-
+    public class Solution2 {
+        public int lengthOfLIS(int[] nums) {
+            return 0;
+        }
+    }
 
 
     public static void main(String[] args) {

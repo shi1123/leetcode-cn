@@ -1,4 +1,4 @@
-package com.szp.leetcode.p751_800;
+package com.szp.leetcode.q751_800;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
