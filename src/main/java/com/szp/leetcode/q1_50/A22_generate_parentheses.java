@@ -1,5 +1,8 @@
 package com.szp.leetcode.q1_50;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class A22_generate_parentheses {
     class Solution {
         public List<String> generateParenthesis(int n) {

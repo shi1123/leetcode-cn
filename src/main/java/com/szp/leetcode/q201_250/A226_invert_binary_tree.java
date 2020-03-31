@@ -25,7 +25,6 @@ public class A226_invert_binary_tree {
             root.left = root.right;
             root.right = tmp;
             return root;
-            new ArrayList<String>();
         }
     }
 }
