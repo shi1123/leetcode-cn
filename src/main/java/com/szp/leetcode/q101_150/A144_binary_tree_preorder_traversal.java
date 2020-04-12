@@ -7,19 +7,19 @@ import java.util.Stack;
 public class A144_binary_tree_preorder_traversal {
     public class TreeNode {
         int val;
-        A114_binary_tree_preorder_traversal.TreeNode left;
-        A114_binary_tree_preorder_traversal.TreeNode right;
+        TreeNode left;
+        TreeNode right;
         TreeNode(int x) { val = x; }
     }
 
     class Solution {
-        public List<Integer> preorderTraversal(A114_binary_tree_preorder_traversal.TreeNode root) {
+        public List<Integer> preorderTraversal(TreeNode root) {
             if(null == root)
                 return new LinkedList<>();
-            Stack<A114_binary_tree_preorder_traversal.TreeNode> stack = new Stack<>();
+            Stack<TreeNode> stack = new Stack<>();
             List<Integer> res =  new LinkedList<>();
             stack.push(root);
-            A114_binary_tree_preorder_traversal.TreeNode cur = root;
+            TreeNode cur = root;
             while(!(root==null &&stack.isEmpty())){
                 if(null != cur.right) {
                     stack.push(cur.right);
